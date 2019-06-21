@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".WelcomeActivity">
+    
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="370dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/app_logo"/>
+    
+    <TextView
+        android:id="@+id/app_slogan"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="190dp"
+        android:layout_centerHorizontal="true"
+        android:text="Стильний одяг - для стильних людей!"
+        android:textAlignment="center"
+        android:textColor="@android:color/secondary_text_dark_nodisable"
+        android:textSize="18sp"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/main_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="20sp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="Авторизація"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/main_join_now_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main_login_btn"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons2"
+        android:padding="20sp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="Реєстрація"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "917335632093",
+    "firebase_url": "https://stylyagav4.firebaseio.com",
+    "project_id": "stylyagav4",
+    "storage_bucket": "stylyagav4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917335632093:android:338d334aad99c0b9",
+        "android_client_info": {
+          "package_name": "com.example.stylyagav4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917335632093-eorr03q80rkjs50ajftiltd6nhkh4pa3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.stylyagav4",
+            "certificate_hash": "73bc04f7a4e7599ba31dd5b9b6f0c7c0da2f250c"
+          }
+        },
+        {
+          "client_id": "917335632093-nslvicta9uk45i7ogo48o0sjcm01e0tf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCPDGSd_HCCcRr6XrxtxgUUYph1dsBqLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917335632093-nslvicta9uk45i7ogo48o0sjcm01e0tf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
