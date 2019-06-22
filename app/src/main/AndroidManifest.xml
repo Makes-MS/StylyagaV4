@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Cart2Activity"
+            android:name=".CartActivity"
             android:label="@string/title_activity_cart2"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <!-- <activity -->

@@ -205,7 +205,7 @@ public class SettingsActivity extends AppCompatActivity
 //        } else if (id == R.id.nav_categories) {
 
         } else if (id == R.id.nav_cart) {
-            Intent intent = new Intent(SettingsActivity.this, Cart2Activity.class);
+            Intent intent = new Intent(SettingsActivity.this, CartActivity.class);
             startActivity(intent);
 //        } else if (id == R.id.nav_orders) {
 
