@@ -123,7 +123,7 @@ public class CartActivity extends AppCompatActivity
                             @Override
                             public void onClick(DialogInterface dialog, int i) {
                                 if (i == 0){
-                                    Intent intent = new Intent(CartActivity.this, ProductDetails2Activity.class);
+                                    Intent intent = new Intent(CartActivity.this, ProductDetailsActivity.class);
                                     intent.putExtra("pid", model.getPid());
                                     startActivity(intent);
                                 }

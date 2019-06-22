@@ -10,21 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ProductDetails2Activity"
-            android:label="@string/title_activity_product_details2"
+            android:name=".ProductDetailsActivity"
+            android:label="@string/title_activity_product_details"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".CartActivity"
-            android:label="@string/title_activity_cart2"
-            android:theme="@style/AppTheme.NoActionBar" /> <!-- <activity -->
-        <!-- android:name=".ConfirmOrderActivity" -->
-        <!-- android:label="@string/title_activity_confirm_final_order2" -->
-        <!-- android:theme="@style/AppTheme.NoActionBar"></activity> -->
-        <activity android:name=".ConfirmOrderActivity" /> <!-- <activity android:name=".CartActivity" /> -->
-        <activity android:name=".ProductDetailsActivity" /> <!-- <activity -->
-        <!-- android:name=".SettingsActivity" -->
-        <!-- android:label="@string/title_activity_settings2" -->
-        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
+            android:label="@string/title_activity_cart"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ConfirmOrderActivity" />
         <activity android:name=".SettingsActivity" />
         <activity android:name=".AdminCategoryActivity" />
         <activity android:name=".AdminAddNewProductActivity" />

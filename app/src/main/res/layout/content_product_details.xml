@@ -6,8 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".ProductDetails2Activity"
-    tools:showIn="@layout/app_bar_product_details2">
+    tools:context=".ProductDetailsActivity"
+    tools:showIn="@layout/app_bar_product_details">
 
     <ImageView
         android:id="@+id/product_image_details"
